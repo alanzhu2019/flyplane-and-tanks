@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*背景*/
+#mainScreen{
+	width: 512px;
+	height: 768px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.bg{
+	width: 512px;
+	height: 768px;
+	position: absolute;
+	background-image: url(../img/bg.jpg);
+}
+
+#bg2{
+	top: -768px;
+}
+
+
+/*飞机*/
+#airplane{
+	width: 109px;
+	height: 82px;
+	background-image: url(../img/plane.png);
+	position: absolute;
+	left: 200px;
+	top: 670px;
+}
+
+.bullent{
+	position: absolute;
+	width: 5px;
+	height: 10px;
+	background-image: url(../img/bullent.png);
+	background-size: 5px 10px;
+}
+
+.tank{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/tank.jpg);
+	background-size: 40px 40px;
+}
